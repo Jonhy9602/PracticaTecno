@@ -1,0 +1,532 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Monserrat', sans-serif;
+    font-style: normal;
+}
+
+.header-1{
+    display: flex;
+    justify-items: center;
+    width: 1440px;
+    height: 1101px;
+    background: #FFFFFF;
+    flex: none;
+    order:0;
+    flex-grow: 0;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 80px 0px;
+    gap: 80px;
+    position: absolute;
+    width: 1046px;
+    height: 953px;
+    left: calc(50% - 1046px/2);
+    top: 104px;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 30px;
+    width: 1044px;
+    height: 401px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.col-md-8{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 35px;
+    width: 599px;
+    height: 401px;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+h5 #header-tag{
+    width: 128px;
+    height: 24px;
+}
+
+h5 {
+    display: flex;
+    font-family: 'Monserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+
+    letter-spacing: 0.1px;
+
+    color: #FF6551;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+h1 #headline{
+    width: 578px;
+    height: 160px;
+
+}
+h1{
+    font-family: 'Monserrat', sans-serif;;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 58px;
+    line-height: 80px;
+    letter-spacing: 0.2px;
+
+    color: #FFFFFF;
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+h4 #sub-headline{
+    width: 440px;
+    height: 60px;
+}
+h4{
+    font-family: 'Monserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+}
+
+.cta{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 10px;
+
+    width: 307px;
+    height: 52px;
+
+    flex: none;
+    order: 3;
+    flex-grow: 0;
+}
+.btn{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px 40px;
+    gap: 10px;
+    width:  162px;
+    height: 52px;
+
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    
+}
+.btn-primary-color {
+    background: #FF6551;
+    border-radius: 5px;
+    border-color: #FF6551;
+
+}
+.btn-light-primary-color{
+    border: 1px solid #FF6551;
+    border-radius: 5px;
+}
+
+.btn-text{
+    width: 55px;
+    height: 22px;
+    font-family: 'Monserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 22px;
+
+    text-align: center;
+    letter-spacing: 0.2px;
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.light-text-color{
+    color: #FFFFFF;
+}
+.primary-color{
+    color: #FF6551;
+}
+.col-md-4{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+
+    width: 415px;
+    height: 280px;
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 35px 40px;
+    gap: 20px;
+
+    width: 328px;
+    height: 293px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+#circle{
+    width: 72px;
+    height: 72px;
+
+    background: #FF6551;
+    border-radius: 200px;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;   
+}
+#icon-presentation{
+    position: absolute;
+    left: 5.55%;
+    right: 91.17%;
+    top: 64.56%;
+    bottom: 32%;
+}
+#icon-telescope{
+    position: absolute;
+    left: 48.55%;
+    right: 48.17%;
+    top: 64.56%;
+    bottom: 33%;
+}
+#icon-graduate{
+    position: absolute;
+    left: 90.70%;
+    right: 6.17%;
+    top: 64.80%;
+    bottom: 32%;
+}
+#cool-icon{
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+}
+h3{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+
+    letter-spacing: 0.1px;
+    color: #252B42;
+}
+h3 #feature-title{
+    width: 205px;
+    height: 64px;
+}
+.fixed-width{
+    width: 50px;
+    height: 2px;
+    background: #E74040;
+}
+.paragraph{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+}
+.paragraph .feature-description{
+    width: 221px;
+    height: 60px;
+}
+#container{
+    position: absolute;
+    width: 1322px;
+    height: 91px;
+    left: calc(65% - 100%/2);
+    top: 0px;
+}
+#navbar-style{
+    position: absolute;
+    width: 1322px;
+    height: 91px;
+    left: calc(50% - 1322px/2);
+    top: 0px;
+}
+.collapse{
+    position: absolute;
+    width: 815px;
+    height: 58px;
+    left: calc(50% - 815px/2 + 110.5px);
+    top: 16px;
+}
+.navbar-nav-1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 45px;
+    
+    position: absolute;
+    width: 300px;
+    height: 52px;
+    left: 650px;
+    right: 0px;
+    top: calc(50% - 52px/2);   
+}
+.navbar-nav-2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 21px;
+    
+    position: absolute;
+    width: 275px;
+    height: 24px;
+    top: calc(50% - 24px/2);   
+}
+.li-0{
+    
+    width: 43px;
+    height: 24px;
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;    
+}
+.li-1{
+    width: 59px;
+    height: 24px;
+    
+    flex: none;
+    order: 1;
+    flex-grow: 0;    
+}
+.li-2{
+    width: 52px;
+    height: 24px;
+    
+    flex: none;
+    order: 2;
+    flex-grow: 0;    
+}
+.li-3{
+    width: 58px;
+    height: 24px;
+    
+    flex: none;
+    order: 3;
+    flex-grow: 0;    
+}
+.li-a-0{
+    position: absolute;
+    width: 43px;
+    height: 24px;
+    left: 0px;
+    top: 0px;
+}
+.li-a-1{
+    position: absolute;
+    width: 43px;
+    height: 24px;
+    left: 61px;
+    top: 0px;
+}
+.li-a-2{
+    position: absolute;
+    width: 52px;
+    height: 24px;
+    left: 129px;
+    top: 0px;
+}
+.li-a-3{
+    position: absolute;
+    position: absolute;
+    width: 58px;
+    height: 24px;
+    left: 200px;
+    top: 0px;    
+}
+.link{
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;    
+    text-align: center;
+    letter-spacing: 0.2px;
+}
+.toggler{
+    position: absolute;
+    width: 24px;
+    height: 13.71px;
+    left: 1298px;
+    top: 39px;       
+}
+.toggler-icon{
+    position: absolute;
+    width: 24px;
+    height: 13.71px;
+    left: calc(50% - 24px/2);
+    top: 0px;  
+}
+
+.brand{
+    position: absolute;
+    width: 187px;
+    height: 58px;
+    left: calc(50% - 187px/2 - 431.5px);
+    top: calc(50% - 36px/2 + 0.5px);    
+}
+h3 .brandname{
+    position: absolute;
+    width: 149px;
+    height: 32px;
+    left: 0px;
+    top: 13px;
+}
+#background{
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 194px;
+}
+
+.filter{
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+}
+#hero-8-bg-shape-cover-dark{
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 182px;
+}
+#none{
+    position: absolute;
+    width: 681px;
+    height: 775.89px;
+    left: 1031px;
+    top: 120px;  
+}
+.singles{
+    position: absolute;
+    width: 154.47px;
+    height: 77.91px;
+    left: 665.53px;
+    top: 111.46px;
+    
+    background: url(.png);
+}
+.donut{
+    position: absolute;
+    width: 154px;
+    height: 154px;
+    left: 109px;
+    top: 338px;
+    
+    background: url(.png);
+}
+.rectangle-mujer{
+    position: absolute;
+    width: 548.15px;
+    height: 548.15px;
+    left: 160px;
+    top: 0px;
+    
+    background: url(friendly-pleased-young-lady-cap-carries-rucksack-holds-paper-folder-with-papers.jpg);
+    border-radius: 0px 111.639px;
+}
+.rectangle-bg{
+    position: absolute;
+    width: 548.15px;
+    height: 548.15px;
+    left: 200px;
+    top: 30.14px;
+    
+    background: #00087E;
+    border-radius: 0px 111.639px;   
+}
+#hero-shape-sharp-1{
+    position: absolute;
+    width: 1440px;
+    height: 725px;
+    left: 0px;
+    top: 0px;
+}
+.vector{
+    position: absolute;
+    width: 100vw;
+    height: 725.75px;
+    left: 0px;
+    top: 0px;
+}
+
+#layout2{
+    width: 1440px;
+    height: 744px;
+
+    background: #FFFFFF;
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+.container-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 160px 0px;
+
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    left: calc(50% - 1050px/2);
+    top: 963px;
+}
